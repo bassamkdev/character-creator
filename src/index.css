@@ -30,3 +30,17 @@ body {
   padding: 0;
   border: 0;
 }
+
+
+@media screen and (max-width: 768px) {
+ .perspective {
+  display: none;
+ };
+}
+.perspective {
+  height: 40%;
+  width: 100vw;
+  background-color:  hsl(195deg, 20%, 86%);
+  position: fixed;
+  bottom: 0;
+}
